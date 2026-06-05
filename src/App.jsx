@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import ProductList from './components/ProductList';
 
-const { JSDOM } = require('jsdom')
-
 const App = () => {
   // IMPORTANT: match test data (includes Phone)
   const initialProducts = [
